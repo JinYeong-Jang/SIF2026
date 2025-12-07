@@ -23,6 +23,6 @@ STM32 MCU가 실시간 PID 제어를 수행하고, FPGA가 고속 데이터 로�
 ## 💻 Software Stack
 - **Firmware:** STM32CubeIDE (C/C++), HAL Library
 - **Hardware Logic:** Xilinx Vivado (Verilog HDL)
-- **PC Application:** Python 3.9, PyQtGraph, PySerial
+- **PC Application:** Matlab PC UI
 
 ## 🎥 Demo
