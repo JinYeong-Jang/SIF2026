@@ -1,0 +1,66 @@
+########################################
+# STM32CubeIDE (Eclipse 기반) Ignore
+########################################
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+
+# 자동 생성 파일들
+.settings/
+.metadata/
+.ipynb_checkpoints/
+*.launch
+
+# 빌드 중 생성되는 중간파일
+*.o
+*.d
+*.su
+*.lst
+
+########################################
+# Vivado Ignore (초·중요)
+########################################
+# Vivado 프로젝트에서 반드시 제외해야 하는 파일들
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.rpt
+
+# Vivado 시뮬레이션 생성 디렉토리
+.sim/
+.cache/
+.hw/
+.ip_user_files/
+.xpr.tmp/
+.gen/
+.webtalk/
+.Xil/
+
+# Vivado 프로젝트 내부 임시 파일
+*.xml
+*.html
+*.backup.jou
+*.backup.log
+
+########################################
+# Python Ignore (PC UI 개발 시)
+########################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+########################################
+# OS & 기타
+########################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
